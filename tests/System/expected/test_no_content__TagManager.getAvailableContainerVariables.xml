@@ -704,6 +704,16 @@
 				<is_pre_configured>1</is_pre_configured>
 			</row>
 			<row>
+				<id>VisibleElementNode</id>
+				<idvariable />
+				<type>VisibleElementNode</type>
+				<name>Visible Element Node</name>
+				<category>Visibility</category>
+				<description>The element that was matched when the visible element trigger was triggered. This can be used to do more advanced data access or modifications.</description>
+				<order>9999</order>
+				<is_pre_configured>1</is_pre_configured>
+			</row>			
+			<row>
 				<id>VisibleElementText</id>
 				<idvariable />
 				<type>VisibleElementText</type>
