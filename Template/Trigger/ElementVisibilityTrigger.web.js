@@ -221,6 +221,7 @@
                                 'mtm.elementVisibilityClasses': dom.getElementClassNames(nodes[i]),
                                 'mtm.elementVisibilityText': TagManager.utils.trim(nodes[i].innerText),
                                 'mtm.elementVisibilityNodeName': nodes[i].nodeName,
+                                'mtm.elementVisibilityNode': nodes[i],                                
                                 'mtm.elementVisibilityUrl': nodes[i].href || dom.getElementAttribute(nodes[i], 'href'),
                             });
                             if (fireTriggerWhen === 'oncePage') {
